@@ -12,7 +12,7 @@
 ![](https://img.51dbapi.com/dbapi/images/dbApi//logo.png)
 
 <p align="center">
-	👉 <a target="_blank" href="https://www.51dbapi.com">https://www.51dbapi.com</a>  👈
+	👉 <a target="_blank" href="https://www.51dbapi.com/en">https://www.51dbapi.com</a> 👈
 </p>
 
 ## Summary
@@ -36,13 +36,13 @@
 - Supports the API access records query, the API access information statistics.
 
 ## Download
-[download](https://www.51dbapi.com/v4.0.0/download/)
+[download](https://www.51dbapi.com/en/v4.0.0/download/)
 
 ## Installation
-[Installation](https://www.51dbapi.com/v4.0.0/install/)
+[Installation](https://www.51dbapi.com/en/v4.0.0/install/)
 
 ## Documents
-[Documents](https://www.51dbapi.com)
+[Documents](https://www.51dbapi.com/en)
 
 ## Screenshot
 ![](https://img.51dbapi.com/dbapi/doc/images/create_ds-20250130-144443.jpg)
@@ -71,9 +71,9 @@
 ![](https://img.51dbapi.com/dbapi/doc/images/doc_export-20250130-155741.jpg)
 
 
-## 联系
+## Concat
 
-### 微信公众号
+### Wechat
 
 <img src="https://img.51dbapi.com/dbapi/images/dbApi/wechat.jpg" width = "200px" />
 

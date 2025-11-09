@@ -1,4 +1,4 @@
-# DBApi
+# DBAPI
 
 
 [![EN doc](https://img.shields.io/badge/document-English-blue.svg)](README.md)

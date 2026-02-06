@@ -36,10 +36,10 @@
 - 支持OpenAPI，方便集成到其他软件系统
 
 ## 安装包下载
-[安装包下载](https://www.51dbapi.com/v4.0.0/download/)
+[安装包下载](https://www.51dbapi.com/download/)
 
 ## 安装文档
-[安装文档](https://www.51dbapi.com/v4.0.0/install/)
+[安装文档](https://www.51dbapi.com/install)
 
 ## 官方文档
 [官方文档](https://www.51dbapi.com)

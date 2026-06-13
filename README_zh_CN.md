@@ -8,7 +8,7 @@
 <p>
   <a href="https://www.51dbapi.com"><strong>🎬 官网</strong></a>
   <a href="https://www.51dbapi.com/guide"><strong>📖 文档</strong></a> ·
-  <a href="https://demo.51dbapi.com/demo"><strong>🚀 在线体验</strong></a> ·
+  <a href="https://www.51dbapi.com/demo"><strong>🚀 在线体验</strong></a> ·
   <a href="https://www.51dbapi.com/install"><strong>📥 下载安装</strong></a> ·
 </p>
 
@@ -139,16 +139,14 @@ bash bin/dbapi-daemon.sh start standalone
 
 ## 在线体验
 
-- **演示环境**：[https://demo.51dbapi.com](https://demo.51dbapi.com)（账号/密码：`admin / admin`）
-- **企业版演示**：[预约体验](https://www.51dbapi.com/enterprise-demo)
-- **视频教程**：[微信文章](https://mp.weixin.qq.com/s/BGc0vc3nKGYjMhDqgg5GCw)
+- **演示环境**：[https://www.51dbapi.com/demo](https://www.51dbapi.com/demo)（账号/密码：`admin / admin`）
 
 ---
 
 ## 社区
 
 - **Gitee**：[https://gitee.com/freakchicken/db-api](https://gitee.com/freakchicken/db-api)
-- **官网**：[https://www.51dbapi.com](https://www.51dbapi.com)
+- **官网**：[https://www.51dbapi.com/guide](https://www.51dbapi.com/guide)
 - **文档**：[https://www.51dbapi.com](https://www.51dbapi.com)
 
 ---

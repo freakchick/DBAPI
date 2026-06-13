@@ -1,81 +1,153 @@
 # DBAPI
 
-
 [![EN doc](https://img.shields.io/badge/document-English-blue.svg)](README.md)
 [![CN doc](https://img.shields.io/badge/文档-中文版-blue.svg)](README_zh_CN.md)
 
-![](https://img.51dbapi.com/dbapi/images/dbApi//logo.png)
+**SQL is API — Low-code data service tool for data warehouse developers**
 
-<p align="center">
-	👉 <a target="_blank" href="https://www.51dbapi.com/en">https://www.51dbapi.com</a> 👈
+Just write SQL, auto-generate HTTP APIs
+
+<p>
+  <a href="https://www.51dbapi.com/en"><strong>🎬 Website</strong></a>
+  <a href="https://www.51dbapi.com/en"><strong>📖 Docs</strong></a> ·
+  <a href="https://www.51dbapi.com/demo"><strong>🚀 Live Demo</strong></a> ·
+  <a href="https://www.51dbapi.com/en/download"><strong>📥 Download</strong></a> ·
 </p>
 
-## Summary
+<p>
+  <a href="https://github.com/freakchick/DBApi">
+    <img src="https://img.shields.io/badge/GitHub-DBApi-181717?logo=github" alt="GitHub">
+  </a>
+  <img src="https://img.shields.io/badge/Community-v4.0.32-blue" alt="Community">
+  <img src="https://img.shields.io/badge/Enterprise-v4.6.0-important" alt="Enterprise">
+  <img src="https://img.shields.io/badge/JDK-8%2F11%2F17-brightgreen" alt="JDK">
+  <img src="https://img.shields.io/badge/license-Community%20Free-ff69b4" alt="License">
+</p>
 
-- DBAPI is a low-code tool for developers. It allows you to write SQL and configure parameters on the page to automatically generate rest APIs. It helps programmers quickly develop backend data services, especially for BI reports or dashboard backend service development.
+---
 
-- DBAPI is the data service management center for enterprise. It provides dynamic creation and publishing functions for APIs, unified management of APIs, and client management capabilities. It can monitor client calls to APIs and control client permissions for accessing APIs.
+## What is DBAPI?
 
-> **Demo Address**: [Demo](https://demo.51dbapi.com/), default account password: admin/admin
+DBAPI is a low-code data service platform for **data warehouse developers**. **Write SQL and configure parameters on the page, and it automatically generates production-grade HTTP API endpoints** —告别 repetitive CRUD coding forever.
 
-## Features
-- No code, not relying on other software（standalone mode）
-- Supports for stand-alone mode, cluster mode. Supports for `windows` `Linux` `Mac`.
-- Dynamic creation and modification for the API or datasource, deployment is fully insensitive for users.
-- Supports the API-level access rights control,Support IP whitelist, blacklist control.
-- Supports all jdbc databases, including mysql/sqlserver/postgreSql/hive/oracle, etc.
-- Supports dynamic sql like mybatis. Supports sql execution and debugging on page.
-- Supports rich plugins, like data transformation plugin,cache plugin, alarm plugin.
-- Supporting API configuration import and export to facilitate API migration from test environment to production environment
-- Supports multiple SQL execution within one API (such as pagination function), and supports transaction.
-- Support for complex-nested json parameters.
-- Supports the API access records query, the API access information statistics.
+- **🎯 Positioning**: Enterprise data service management center — centrally manage, publish, monitor, and govern all data APIs
+- **💡 Scenarios**: BI reports, data dashboards, rapid frontend prototyping, AI application data integration
+- **⚡ Philosophy**: SQL is the API, ultimate efficiency
 
-## Download
-[download](https://www.51dbapi.com/en/download)
+---
 
-## Installation
-[Installation](https://www.51dbapi.com/en/install)
+## Core Features
 
-## Documents
-[Documents](https://www.51dbapi.com/en)
+### 🚀 Out-of-the-box, Lightweight
 
-## Screenshot
-![](https://img.51dbapi.com/dbapi/doc/images/create_ds-20250130-144443.jpg)
+- No coding required, no external dependencies (only needs Java runtime)
+- Runs stably on a 2-core 4GB server
+- Supports standalone / cluster mode, Windows / Linux
 
-![](https://img.51dbapi.com/dbapi/doc/images/ds_list-20250130-144545.jpg)
-![](https://img.51dbapi.com/dbapi/doc/images/group_more-20250130-145313.jpg)  
-![](https://img.51dbapi.com/dbapi/doc/images/create_api_btn-20250130-150436.jpg)
+### 🔌 Broad Data Source Compatibility
 
+| Type | Support |
+|------|---------|
+| **Relational Databases** | MySQL, SQL Server, PostgreSQL, Oracle, Hive, DM, Kingbase, Doris, OceanBase, GaussDB, and **all** JDBC-compatible databases |
+| **Elasticsearch** | ES DSL executor, run Elasticsearch queries directly |
+| **HTTP Proxy** | HTTP executor, forward third-party REST APIs |
 
+### ✍️ Dynamic SQL, MyBatis-style
 
-![](https://img.51dbapi.com/dbapi/doc/images/api_basic-20250204-170426.jpg)  
-![](https://img.51dbapi.com/dbapi/doc/images/api_executor-20250130-150754.jpg)  
-![](https://img.51dbapi.com/dbapi/doc/images/api_plugin-20250130-151343.jpg)
-![](https://img.51dbapi.com/dbapi/doc/images/sql_debug-20250204-182245.jpg)  
-![](https://img.51dbapi.com/dbapi/doc/images/request-20250130-151734.jpg)
+- Supports `#{}` / `${}` parameter binding, full MyBatis dynamic SQL syntax
+- SQL editor with built-in **run / debug** — WYSIWYG
+- Supports Select / Insert / Update / Delete and stored procedures
+- Multi-SQL combined execution with flexible transaction control
 
-![](https://img.51dbapi.com/dbapi/doc/images/create_btn_page-20250130-152038.jpg)  
-![](https://img.51dbapi.com/dbapi/doc/images/client_auth_btn-20250130-152143.jpg)
-![](https://img.51dbapi.com/dbapi/doc/images/client_auth_page-20250130-152223.jpg)
+### 🔄 API Orchestration
 
-![](https://img.51dbapi.com/dbapi/doc/images/firewall-20250130-153257.jpg)
+- **DAG visual canvas**: drag-and-drop orchestration, no coding required
+- Supports Start → API Execution → Condition (If/Else) → End nodes
+- Previous API results feed directly into subsequent steps
+- Groovy script processing for flexible data handling
 
-![](https://img.51dbapi.com/dbapi/doc/images/monitor-20250130-160347.jpg)
-![](https://img.51dbapi.com/dbapi/doc/images/api_record_search-20250130-160458.jpg)
+### 🛡️ Enterprise-grade Security
 
-![](https://img.51dbapi.com/dbapi/doc/images/doc_export-20250130-155741.jpg)
+| Capability | Description |
+|------------|-------------|
+| **Dynamic Auth** | clientId + secret to obtain Token, API-level access control |
+| **IP Firewall** | IP whitelist / blacklist filtering |
+| **Rate Limiting** | API-level QPS throttling |
+| **Data Encryption** | RSA encryption for response data, digital signature for request params |
+| **Audit Logging** | Full operation audit trail |
 
+### 🧩 Plugin System (5 categories)
 
-## Concat
+- **Cache plugins** — Redis / Ehcache / ES etc.
+- **Data transformation plugins** — data masking, format restructuring
+- **Alert plugins** — Email, SMS, DingTalk, Feishu, WeCom
+- **Parameter processing plugins** — parameter decryption, validation, transformation
+- **Global data transformation plugins** — compatible with AMIS and other frontend frameworks
 
-### Wechat
+### 🤖 AI + MCP Support
 
-<img src="https://img.51dbapi.com/dbapi/images/dbApi/wechat.jpg" width = "200px" />
+- Map DBAPI data APIs to **MCP tools**
+- Integrate with Claude Desktop, Cursor, LangChain, Spring AI and other AI clients
+- AI assistant support, generate SQL from natural language
 
-### WhatsApp
+### 📊 Monitoring & Logging
 
-<img src="https://img.51dbapi.com/dbapi/doc/images/1762695887563-2025119214448.png" width = "200px" />
+- API call history query & access statistics
+- Log storage: ClickHouse / MySQL / PostgreSQL / Doris
+- Kafka buffer collection for large-scale scenarios
 
-## Email
-- dbapi_admin@126.com
+### 🛠️ More Capabilities
+
+- Dynamic API creation / modification / deactivation, **zero-downtime hot deployment**
+- API group management, import/export, version rollback (Enterprise)
+- Built-in API variables `__clientId`, `__apiId`
+- OpenAPI interface for easy system integration
+- Data source health checks, preset request test parameters
+
+---
+
+## Quick Start
+
+### 1. Prerequisites
+
+- JDK 8 / 11 / 17
+- OpenSSL 3 (not required on Windows)
+
+### 2. Download & Start
+
+```bash
+# Download Community Edition (free)
+wget https://img.51dbapi.com/dbapi/dbapi-4.0.32-bin.tar.gz
+tar -xzf dbapi-4.0.32-bin.tar.gz
+cd dbapi-4.0.32
+
+# Modify database config (default uses embedded SQLite)
+# vim conf/application.properties
+
+# Start service
+bash bin/dbapi-daemon.sh start standalone
+```
+
+### 3. Access the System
+
+Open `http://<your-ip>:8520` in your browser, default credentials `admin / admin`.
+
+> For detailed installation guide see [📖 Installation Guide](https://www.51dbapi.com/en/install)
+
+---
+
+## Live Demo
+
+- **Demo environment**: [https://www.51dbapi.com/demo](https://www.51dbapi.com/demo) (credentials: `admin / admin`)
+
+---
+
+## Community
+
+- **GitHub**: [https://github.com/freakchick/DBApi](https://github.com/freakchick/DBApi)
+- **Website**: [https://www.51dbapi.com/en](https://www.51dbapi.com/en)
+- **Docs**: [https://www.51dbapi.com/en](https://www.51dbapi.com/en)
+
+---
+
+*If DBAPI helps you, feel free to give the project a ⭐ on GitHub!*

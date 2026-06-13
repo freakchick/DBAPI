@@ -1,6 +1,9 @@
 
 # DBAPI
 
+[![EN doc](https://img.shields.io/badge/document-English-blue.svg)](README.md)
+[![CN doc](https://img.shields.io/badge/文档-中文版-blue.svg)](README_zh_CN.md)
+
 **SQL 即 API — 数仓开发者的低代码数据服务利器**
 
 只需编写 SQL，自动生成 HTTP API

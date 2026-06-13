@@ -146,8 +146,8 @@ bash bin/dbapi-daemon.sh start standalone
 ## 社区
 
 - **Gitee**：[https://gitee.com/freakchicken/db-api](https://gitee.com/freakchicken/db-api)
-- **官网**：[https://www.51dbapi.com/guide](https://www.51dbapi.com/guide)
-- **文档**：[https://www.51dbapi.com](https://www.51dbapi.com)
+- **文档**：[https://www.51dbapi.com/guide](https://www.51dbapi.com/guide)
+- **官网**：[https://www.51dbapi.com](https://www.51dbapi.com)
 
 ---
 

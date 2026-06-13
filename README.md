@@ -32,10 +32,10 @@
 - Supports the API access records query, the API access information statistics.
 
 ## Download
-[download](https://www.51dbapi.com/v4.0.0/en/download/)
+[download](https://www.51dbapi.com/en/download)
 
 ## Installation
-[Installation](https://www.51dbapi.com/v4.0.0/en/install/)
+[Installation](https://www.51dbapi.com/en/install)
 
 ## Documents
 [Documents](https://www.51dbapi.com/en)
